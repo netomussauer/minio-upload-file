@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+"""
+Written by Neto Mussauer
+Github: https://github.com/netomussauer
+Email: netomussauer@gmail.com
+This script create a Minio bucket and upload some file to Minio S3 storage.
+"""
+
 from minio import Minio
 from minio.error import *
 import getpass
